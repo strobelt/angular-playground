@@ -1,0 +1,11 @@
+<main>
+  <h2>The Weather</h2>
+  <article class="forecast-card" *ngFor="let forecast of weatherForecast$ | async">
+    <h5>{{ forecast.date | date }}</h5>
+    <p class="temperature">
+      <strong>{{ forecast.temperatureC }} °C</strong> |
+      {{ forecast.temperatureF }} °F
+    </p>
+    <p>{{ forecast.summary }}</p>
+  </article>
+</main>

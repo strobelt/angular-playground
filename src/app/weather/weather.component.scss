@@ -1,0 +1,20 @@
+article.forecast-card {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0px 20px 10px 20px;
+    background-color: azure;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    min-width: 200px;
+
+    h5 {
+        font-variant: small-caps;
+        font-weight: 400;
+    }
+
+    .temperature {
+        font-size: 24px;
+        text-align: right;
+    }
+}
